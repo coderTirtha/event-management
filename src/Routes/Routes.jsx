@@ -3,6 +3,7 @@ import Root from "../Root";
 import Home from "../Pages/Home/Home";
 import Login from "../Pages/Login/Login";
 import Services from "../Pages/Services/Services";
+import Register from "../Pages/Register/Register";
 
 const routes = createBrowserRouter([
     {
@@ -20,6 +21,10 @@ const routes = createBrowserRouter([
             {
                 path: '/services',
                 element: <Services></Services>
+            },
+            {
+                path: '/register',
+                element: <Register></Register>
             }
         ]
     }

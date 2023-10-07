@@ -1,4 +1,4 @@
-import { NavLink } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 import logo from '../../assets/logo.png';
 import { FiMenu } from 'react-icons/fi';
 import { RxCross2 } from 'react-icons/rx';
@@ -6,15 +6,17 @@ const Header = () => {
     const handleMenuOpen = () => {
         const menu = document.getElementById('menu');
         menu.classList.remove('hidden');
+        document.body.style.overflowY = 'hidden';
     }
     const handleMenuClose = () => {
         const menu = document.getElementById('menu');
         menu.classList.add('hidden');
+        document.body.style.overflowY = 'unset';
     }
     return (
         <div className='navbar items-center justify-between'>
             <div className='flex-1'>
-                <img src={logo} alt="" className='w-[80px]' />
+                <img src={logo} alt="" className='w-[60px]' />
             </div>
             <div className='flex-1'>
                 <div className='hidden menu menu-horizontal md:flex'>
@@ -24,8 +26,8 @@ const Header = () => {
                 </div>
             </div>
             <div className='hidden md:flex gap-4'>
-                <button className='btn btn-md'>Login</button>
-                <button className='btn btn-outline btn-md'>Register</button>
+                <Link to={'/login'}><button className='btn btn-md'>Login</button></Link>
+                <Link to={'/register'}><button className='btn btn-outline btn-md'>Register</button></Link>
             </div>
             <div className='flex md:hidden'>
                 <FiMenu className='text-2xl' onClick={handleMenuOpen}></FiMenu>
@@ -40,8 +42,8 @@ const Header = () => {
                             <li><NavLink to={'/events'}>Events</NavLink></li>
                         </div>
                         <div className='flex flex-col mt-16 gap-4'>
-                            <button className='btn btn-outline'>Login</button>
-                            <button className='btn btn-neutral'>Register</button>
+                            <Link to={'/login'}><button className='btn btn-outline'>Login</button></Link>
+                            <Link to={'/register'}><button className='btn btn-neutral'>Register</button></Link>
                         </div>
                     </div>
                 </div>
