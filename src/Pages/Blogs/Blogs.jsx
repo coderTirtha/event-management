@@ -1,13 +1,13 @@
 import { Helmet } from "react-helmet-async";
 
-const Services = () => {
+const Blogs = () => {
     return (
         <div>
             <Helmet>
-                <title>Rock N Roll | Services</title>
+                <title>Rock N Roll | Blogs</title>
             </Helmet>
         </div>
     );
 };
 
-export default Services;
+export default Blogs;

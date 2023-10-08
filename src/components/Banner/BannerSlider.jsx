@@ -3,7 +3,7 @@ import logoWhite from '../../assets/logo-white.png';
 const BannerSlider = () => {
     return (
         <div>
-            <div className="hero" style={{ backgroundImage: `url('${concertBanner}')` }}>
+            <div className="hero my-4" style={{ backgroundImage: `url('${concertBanner}')` }}>
                 <div className="hero-overlay bg-opacity-60"></div>
                 <div className='flex flex-col-reverse md:flex-row justify-center items-center p-8 gap-12'>
                     <div className="hero-content text-white flex items-center justify-center flex-1 p-4">
