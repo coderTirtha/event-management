@@ -21,6 +21,9 @@ const Login = () => {
                 toast.success("User Logged in successfully");
                 location?.state ? navigate(location.state) : navigate('/')
             })
+            .catch(error => {
+                toast.error(error.message);
+            })
     }
     return (
         <div>
