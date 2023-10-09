@@ -1,0 +1,38 @@
+[
+    {
+      "name": "Emily Johnson",
+      "rating": 5,
+      "customerReview": "I had an amazing time at the Summer Music Festival! The ticketing process was a breeze, and the event itself was a blast. Can't wait for next year!",
+      "image": "https://i.ibb.co/tCTZqnp/girl1.jpg"
+    },
+    {
+      "name": "John Smith",
+      "rating": 4,
+      "customerReview": "Comedy Night Live was the best comedy show I've attended. Hilarious comedians, great venue, and the ticket price was reasonable. Highly recommended!",
+      "image": "https://i.ibb.co/KVZDQfs/boy2.jpg"
+    },
+    {
+      "name": "Sarah Williams",
+      "rating": 5,
+      "customerReview": "I brought my family to the Sports Extravaganza, and it was a fantastic day out. The kids loved it, and we didn't have to pay for tickets – what a bonus!",
+      "image": "https://i.ibb.co/tCTZqnp/girl1.jpg"
+    },
+    {
+      "name": "David Lee",
+      "rating": 3,
+      "customerReview": "The Theater Showcase was good, but I expected more drama. The venue was nice, and the ticket price was fair.",
+      "image": "https://i.ibb.co/KVZDQfs/boy2.jpg"
+    },
+    {
+      "name": "Linda Davis",
+      "rating": 5,
+      "customerReview": "Catering Services at our event were exceptional! The food was delicious, and the catering team was very professional.",
+      "image": "https://i.ibb.co/tCTZqnp/girl1.jpg"
+    },
+    {
+      "name": "Robert Johnson",
+      "rating": 4,
+      "customerReview": "Security and Crowd Control did a great job ensuring everyone's safety at the Sports Extravaganza. Well-organized event.",
+      "image": "https://i.ibb.co/KVZDQfs/boy2.jpg"
+    }
+  ]
