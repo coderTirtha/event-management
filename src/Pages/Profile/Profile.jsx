@@ -17,7 +17,7 @@ const Profile = () => {
     return (
         <div className="max-w-md mx-auto shadow-md rounded-md p-4 my-8">
             <div>
-                <img src={user?.photoURL} alt="" className="w-[100px] mx-auto" />
+                <img src={user?.photoURL} alt="" className="w-[100px] mx-auto rounded-full" />
                 <h1 className="text-center text-2xl font-semibold">{user?.displayName}</h1>
             </div>
             <div className="form-control">

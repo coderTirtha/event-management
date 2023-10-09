@@ -7,6 +7,7 @@ import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
 const Register = () => {
+    const [error, setError] = useState('');
     const { createUser } = useContext(AuthContext);
     const handleRegister = e => {
         e.preventDefault();
@@ -14,7 +15,17 @@ const Register = () => {
         const photo = e.target.photo.value;
         const email = e.target.email.value;
         const password = e.target.password.value;
-        console.log(email, password);
+        setError('');
+        if(password.length < 6) {
+            setError("Password should be at least 6 characters or longer!");
+            return
+        } else if (!/[A-Z]/.test(password)) {
+            setError("Password should contain at least one Capital letter!");
+            return
+        } else if(!/[!@#$%^&*()_+{}\[\]:;<>,.?~\\-]/.test(password)) {
+            setError("Password should contain at least one special character!");
+            return
+        }
         createUser(email, password)
             .then(result => {
                 const user = result.user;
@@ -65,6 +76,9 @@ const Register = () => {
                     </label>
                     <input type="password" placeholder="Password" name="password" className="input input-bordered" required />
                 </div>
+                {
+                    error ? <p className="text-red-600">{error}</p> : ''
+                }
                 <button className="btn btn-neutral btn-outline w-full mt-6">Register</button>
                 <div className="mt-4">
                     <p className="text-center">Already have an account? <Link className="text-error font-semibold" to={'/login'}>Login</Link></p>
