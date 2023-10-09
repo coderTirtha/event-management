@@ -1,0 +1,110 @@
+[
+    {
+        "name": "Summer Music Festival 2023",
+        "venue": "City Park Amphitheater",
+        "ticketPrice": "$45.00 - $120.00",
+        "organizers": "EventPro Inc.",
+        "sponsors": "MusicStream, FoodFest Co.",
+        "date": "2023-08-15",
+        "eventCategory": "Upcoming Event"
+    },
+    {
+        "name": "Comedy Night Live",
+        "venue": "Laugh Palace Comedy Club",
+        "ticketPrice": "$25.00",
+        "organizers": "Comedy Entertainment LLC",
+        "sponsors": "LaughMore Inc.",
+        "date": "2023-09-10",
+        "eventCategory": "Upcoming Event"
+    },
+    {
+        "name": "Sports Extravaganza",
+        "venue": "City Sports Arena",
+        "ticketPrice": "Free Admission",
+        "organizers": "SportsWorld Events",
+        "sponsors": "SportsGear Co.",
+        "date": "2023-10-05",
+        "eventCategory": "Upcoming Event"
+    },
+    {
+        "name": "Theater Showcase",
+        "venue": "Grand Theater",
+        "ticketPrice": "$35.00 - $80.00",
+        "organizers": "Theater Productions Ltd.",
+        "sponsors": "ArtsSupport Corp.",
+        "date": "2023-11-20",
+        "eventCategory": "Upcoming Event"
+    },
+    {
+        "name": "Winter Wonderland Gala",
+        "venue": "Snowy Lodge Ballroom",
+        "ticketPrice": "$100.00 - $250.00",
+        "organizers": "EventMagic Productions",
+        "sponsors": "Frosty Beverages Inc., Snowflake Jewelry",
+        "date": "2023-12-10",
+        "eventCategory": "Upcoming Event"
+    },
+    {
+        "name": "New Year's Eve Fireworks",
+        "venue": "City Skyline Park",
+        "ticketPrice": "Free Admission",
+        "organizers": "City Events Committee",
+        "sponsors": "PyroTech Fireworks, SkyView Hotels",
+        "date": "2023-12-31",
+        "eventCategory": "Upcoming Event"
+    },
+    {
+        "name": "Spring Jazz Festival 2023",
+        "venue": "Grove Park Pavilion",
+        "ticketPrice": "$30.00 - $80.00",
+        "organizers": "JazzSounds Productions",
+        "sponsors": "SmoothTunes Radio, JazzFest Co.",
+        "date": "2023-04-15",
+        "eventCategory": "Past Event"
+    },
+    {
+        "name": "Movie Under the Stars",
+        "venue": "City Park",
+        "ticketPrice": "Free Admission",
+        "organizers": "FilmFun Events",
+        "sponsors": "StarCinema, Popcorn Delight",
+        "date": "2023-06-20",
+        "eventCategory": "Past Event"
+    },
+    {
+        "name": "Rock 'n' Roll Reunion",
+        "venue": "RockZone Arena",
+        "ticketPrice": "$40.00 - $100.00",
+        "organizers": "RockRevival Productions",
+        "sponsors": "RockRadio, RockGear Co.",
+        "date": "2023-07-08",
+        "eventCategory": "Past Event"
+    },
+    {
+        "name": "Autumn Wine Tasting",
+        "venue": "Vineyard Estates",
+        "ticketPrice": "$60.00 - $150.00",
+        "organizers": "WineLovers Association",
+        "sponsors": "Vintage Vines, Cork & Corkscrew",
+        "date": "2023-10-20",
+        "eventCategory": "Past Event"
+    },
+    {
+        "name": "Holiday Charity Gala",
+        "venue": "Grand Ballroom",
+        "ticketPrice": "$75.00 - $200.00",
+        "organizers": "CharityCare Foundation",
+        "sponsors": "Generous Hearts Inc., Hopeful Futures",
+        "date": "2023-12-05",
+        "eventCategory": "Past Event"
+    },
+    {
+        "name": "Midsummer Night's Dream",
+        "venue": "Enchanted Garden",
+        "ticketPrice": "$50.00 - $120.00",
+        "organizers": "DreamEvents Productions",
+        "sponsors": "FairyTales Co., Starry Night Lights",
+        "date": "2023-08-08",
+        "eventCategory": "Past Event"
+    }
+]

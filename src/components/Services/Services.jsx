@@ -12,7 +12,7 @@ const Services = () => {
             .then(data => setServices(data));
     }, []);
     return (
-        <div className="my-8 flex flex-col md:flex-row gap-4 items-center">
+        <div className="my-8 mx-4 flex flex-col md:flex-row gap-4 items-center">
             <div className="text-center space-y-2" data-aos="fade-up">
                 <h1 className="font-font-roboto text-5xl font-bold">Our Services</h1>
                 <p className="text-gray-500 max-w-sm text-justify">Discover our comprehensive range of services designed to elevate your events and create unforgettable moments. From event planning to entertainment booking, we're dedicated to making your occasions truly special.</p>
